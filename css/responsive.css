@@ -1,0 +1,31 @@
+@media screen and (max-width: 991px){
+    .navbar-nav li.nav-item
+    {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    ul.navbar-nav {
+        animation-duration: 0s;
+        animation-delay: 0s;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .about .col-md-7 {
+        margin-top: 60px;
+    }
+
+    @media screen and (max-width: 500px){
+        .main .type {
+            font-size: 24px;
+        }
+    }
+
+}
+ 
